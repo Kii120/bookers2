@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :books
   # get 'users/new'
   # get 'users/create'
   # get 'users/show'
